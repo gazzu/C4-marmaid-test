@@ -1,3 +1,6 @@
+Design referenced from [Book Store System](https://gitlab.com/MarioCarrion/blog-examples/-/tree/main/2020/12/30)
+
+```mermaid
 flowchart TB
 
 subgraph singlePageApplication[Single Page Application]
@@ -102,3 +105,4 @@ classDef externalSystem fill:#999999
 
 classDef type stroke-width:0px, color:#fff, fill:transparent, font-size:12px
 classDef description stroke-width:0px, color:#fff, fill:transparent, font-size:13px
+```
