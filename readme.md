@@ -1,3 +1,22 @@
+Gantt
+
+```mermaid
+gantt
+    title Developer Experience (DX) - SDK and Templates
+    dateFormat  YYYY-MM-DD
+    section SDK
+    Rust SDK improvements           :2023-04-01, 30d
+    Go SDK                          :30d
+    section WORA Templates
+    WASM Entity Template            :2023-04-01  , 14d
+    WASM Business Logic Template    :14d
+    WASM AI/ML Template             :30d
+    section Developer Portal
+    Install portal                  :2023-05-01  , 14d
+    Import Templates                :14d
+    Create tutorials                :14d
+```
+
 Design referenced from [Book Store System](https://gitlab.com/MarioCarrion/blog-examples/-/tree/main/2020/12/30)
 
 ```mermaid
