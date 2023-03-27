@@ -1,11 +1,26 @@
 Gantt
 
 ```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#BB2528',
+      'primaryTextColor': '#000000',
+      'primaryBorderColor': '#7C0000',
+      'fontSize': '32px',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
 gantt
     title Developer Experience (DX) - SDK and Templates
     dateFormat  YYYY-MM-DD
     section SDK
     Rust SDK improvements           :2023-04-01, 30d
+    Wasm SDK improvements           :2023-04-01, 30d
     Go SDK                          :30d
     section WORA Templates
     WASM Entity Template            :2023-04-01  , 14d
