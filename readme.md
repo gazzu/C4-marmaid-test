@@ -31,8 +31,71 @@ gantt
     Import Templates                :14d
     Create tutorials                :14d
 ```
-
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#BB2528',
+      'primaryTextColor': '#000000',
+      'primaryBorderColor': '#7C0000',
+      'fontSize': '32px',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#fff',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
+gantt
+    title Developer Experience (DX) - SDK and Templates
+    dateFormat  YYYY-MM-DD
+    section SDK and Templates
+    Rust SDK evolution           :2023-05-01, 14d
+    Go SDK                       :30d
+    New Templates                :2023-06-14, 29d
+    Dev Guide                    :2023-05-01, 60d
+    section Developer Portal
+    Install portal                  :2023-06-01, 14d
+    Import Templates                :14d
+    Create tutorials                :14d
+```
 Design referenced from [Book Store System](https://gitlab.com/MarioCarrion/blog-examples/-/tree/main/2020/12/30)
+
+```mermaid
+gantt
+    title Telecontrol Of The Future
+    dateFormat  YYYY-MM-DD
+    section Section
+    K8S On Premise                  : a1, 2023-06-01, 30d
+    Keda                            : 14d
+    Dapr                            : 14d
+    Identity Management             : 30d
+    Container Registry              : after a1, 30d
+    section Observability
+    Prometheus                      : 2023-07-01  , 14d
+    OpenTelemetry                   : 14d
+    Remote Write                    : 14d
+    section Kafka
+    Kafka On Premise                : 2023-07-01  , 14d
+    Cluster Linking                 : 14d
+    section OT/IT integration
+    DDS Cyclone                     : 2023-07-01  , 14d
+    Zenoh                           : 14d
+    Bridge                          : 14d
+    section Zero Trust Security
+    Spire Server                    : 2023-07-01  , 14d
+    Open Policy Agent               : 14d
+    Vault                           : 14d
+    Cilium                          : 14d
+    section GitOps
+    ArgoCD                          : 2023-07-01  , 14d
+    section APPs
+    Topology Structure Entity       : 2023-09-01  , 30d
+    Topology GIS Entity             : 30d
+    Telecontrol ScadaEvents Entity  : 30d
+    Telecontrol STB2PLAT            : 30d
+    Telecontrol of the future       : 60d
+```
 
 ```mermaid
 flowchart TB
