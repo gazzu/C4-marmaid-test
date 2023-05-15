@@ -203,6 +203,8 @@ classDef externalSystem fill:#999999
 classDef type stroke-width:0px, color:#fff, fill:transparent, font-size:12px
 classDef description stroke-width:0px, color:#fff, fill:transparent, font-size:13px
 ```
+
+```mermaid
 %%{
   init: {
     'theme': 'base',
@@ -235,3 +237,4 @@ gantt
     Inception                       :2023-05-01  , 20d
     Sensor APP                      :2023-05-21  , 30d
     BL Alarm                        :2023-06-01  , 30d
+```
