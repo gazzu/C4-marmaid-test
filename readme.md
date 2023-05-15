@@ -203,3 +203,35 @@ classDef externalSystem fill:#999999
 classDef type stroke-width:0px, color:#fff, fill:transparent, font-size:12px
 classDef description stroke-width:0px, color:#fff, fill:transparent, font-size:13px
 ```
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+    }
+  }
+}%%
+gantt
+    title QED Wave 1 (silos)
+    dateFormat  YYYY-MM-DD
+    section Edge Management
+    IoT Agent Snap                  :2023-05-01, 2023-07-01
+    Test IoT Agent Snap             :2023-07-01, 2023-09-01
+    FDO                             :2023-05-01, 30d
+    section Edge Cloud
+    Nervous System                        :2023-05-01  , 14d
+    WASM Business Logic Template    :14d
+    WASM AI/ML Template             :30d
+    section Edge Device
+    Rust and Go SDK                 :2023-05-01  , 30d
+    Entity and BL Template          :2023-06-01  , 60d
+    Tutorials                       :2023-06-01  , 60d
+    CLI                             :2023-05-01  , 30d
+    Zero Trust Security             :2023-05-01  , 30d
+    GitOps                          :2023-06-01  , 60d
+    Observability                   :2023-09-01  , 60d
+    Security enhancement            :2023-09-01  , 60d
+    C / C++ SDK                     :2023-09-01  , 60d
+    section Sensors
+    Inception                       :2023-05-01  , 20d
+    Sensor APP                      :2023-05-21  , 30d
+    BL Alarm                        :2023-06-01  , 30d
